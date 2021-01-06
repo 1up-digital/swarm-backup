@@ -1,4 +1,9 @@
-# <img src="swarm-logo.svg" alt="Swarm" height="40px"> Swarm Backup
+<p float="left">
+	<img src="swarm-logo.svg" alt="Swarm" height="40px">        <img src="1up-logo.svg" alt="1UP" height="40px">
+</p>
+
+# Swarm Backup
+
 <hr>
 
 A library to back up and restore encrypted data using swarm.
@@ -26,7 +31,7 @@ Instantiate the class passing the URL of the Swarm gateway and a valid private k
 | Param |	Type | Required | Default | Purpose |
 | ----- | ---- | -------- | ------- | ------- |
 | gateway | string | true |  | The URL of the Swarm Gateway |
-| privateKey | string | true | A valid Private Key |
+| privateKey | string | true | | A valid Private Key |
 
 ##### Example
 
@@ -84,6 +89,14 @@ npm run pack
 The bundle will be generated and stored in dist/web/bundle.js
 
 Include the library as normal and instantiate the class using the same example as above.  
+
+### Testing
+
+To run tests:
+
+1.  Install bee following the instructions at https://docs.ethswarm.org.
+2.  Run locally in standalone mode `bee start --standalone --password="password" --swap-enable="false"`
+3.  `npm test`
 
 ### License
 

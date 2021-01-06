@@ -39,9 +39,12 @@
 </body>
 <footer>
   <script type="text/javascript">
-
+    // Using a local gateway
     const gateway = 'http://localhost:1633';
     
+    /* 
+     *  Clear the form data
+     */
     function resetForm(){
       document.getElementById("backup-privateKey").value = '';
       document.getElementById("backup-dataKey").value = '';
@@ -51,13 +54,21 @@
       document.getElementById("restore-dataKey").value = '';
     }
 
+    /* 
+     *  Backup data provided
+     */
     function backup(){
+      // Get private key from input
       const privateKey = document.getElementById("backup-privateKey").value
+      // Get data key from input
       const dataKey = document.getElementById("backup-dataKey").value
+      // Get data value from input
       const dataValue = document.getElementById("backup-dataValue").value
 
+      // Init SwarmBackup
       let sb = new SwarmBackup(gateway, privateKey);
 
+      // Backup data 
       sb.backup(dataKey, dataValue).then((response)=>{
         if(response === true){
           alert('Backup Successful');
@@ -66,31 +77,42 @@
         }
       })
 
+      // Reset form
       resetForm();
     }
 
+    /* 
+     *  Restore data provided
+     */
     function restore(){
+      // Get private key from input
       const privateKey = document.getElementById("restore-privateKey").value
+      // Get data key from input
       const dataKey = document.getElementById("restore-dataKey").value
 
+      // Init SwarmBackup
       let sb = new SwarmBackup(gateway, privateKey);
 
+      // Restore Data
       sb.restore(dataKey).then((response)=>{
         var restoredData = document.getElementById("restoredData");
         if(restoredData !== null){
           restoredData.remove();
         }
         
+        // Show data in UI
         var node = document.createElement("code");   
         node.setAttribute("id", "restoredData");              
         var textnode = document.createTextNode(response);
         node.appendChild(textnode);
         document.getElementById("restoreContainer").appendChild(node);
 
+        // Reset Form
         resetForm();
       })
     }
 
+    // Setup events
   	document.getElementById("backupBtn").addEventListener("click", backup);
     document.getElementById("restoreBtn").addEventListener("click", restore);
 

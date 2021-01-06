@@ -1,336 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 652 537.9" style="enable-background:new 0 0 652 537.9;" xml:space="preserve">
-<style type="text/css">
-	.st0{opacity:0.45;}
-	.st1{clip-path:url(#SVGID_2_);fill:#010101;}
-	.st2{opacity:0.6;}
-	.st3{clip-path:url(#SVGID_4_);fill:#010101;}
-	.st4{opacity:0.3;}
-	.st5{clip-path:url(#SVGID_6_);fill:#010101;}
-	.st6{clip-path:url(#SVGID_8_);fill:#010101;}
-	.st7{clip-path:url(#SVGID_10_);fill:#010101;}
-	.st8{clip-path:url(#SVGID_12_);fill:#010101;}
-	.st9{clip-path:url(#SVGID_14_);fill:#010101;}
-	.st10{opacity:0.8;}
-	.st11{clip-path:url(#SVGID_16_);fill:#010101;}
-	.st12{clip-path:url(#SVGID_18_);fill:#010101;}
-	.st13{clip-path:url(#SVGID_20_);fill:#010101;}
-	.st14{clip-path:url(#SVGID_22_);fill:#010101;}
-	.st15{clip-path:url(#SVGID_24_);fill:#010101;}
-	.st16{clip-path:url(#SVGID_26_);fill:#010101;}
-	.st17{clip-path:url(#SVGID_28_);fill:#010101;}
-	.st18{clip-path:url(#SVGID_30_);fill:#010101;}
-	.st19{clip-path:url(#SVGID_32_);fill:#010101;}
-	.st20{clip-path:url(#SVGID_34_);fill:#010101;}
-	.st21{clip-path:url(#SVGID_36_);fill:#010101;}
-	.st22{clip-path:url(#SVGID_38_);fill:#010101;}
-	.st23{clip-path:url(#SVGID_40_);fill:#010101;}
-	.st24{clip-path:url(#SVGID_42_);fill:#010101;}
-	.st25{clip-path:url(#SVGID_44_);fill:#010101;}
-	.st26{clip-path:url(#SVGID_46_);fill:#010101;}
-</style>
-<g>
-	<g class="st0">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_1_" x="431.2" y="71.8" width="46.9" height="79.2"/>
-				</defs>
-				<clipPath id="SVGID_2_">
-					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st1" points="478.1,98.2 478.1,151 431.2,124.6 431.2,71.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st2">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_3_" x="431.2" y="98.2" width="46.9" height="79.2"/>
-				</defs>
-				<clipPath id="SVGID_4_">
-					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st3" points="431.2,124.6 431.2,177.4 478.1,151 478.1,98.2 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st4">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_5_" x="122" y="367" width="187.7" height="105.6"/>
-				</defs>
-				<clipPath id="SVGID_6_">
-					<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st5" points="122,419.8 215.9,472.6 309.8,419.8 215.9,367 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st0">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_7_" x="122" y="314.2" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_8_">
-					<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st6" points="215.9,367 215.9,472.6 122,419.8 122,314.2 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st0">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_9_" x="215.9" y="261.4" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_10_">
-					<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st7" points="309.8,314.2 309.8,419.8 215.9,367 215.9,261.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st2">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_11_" x="215.9" y="314.2" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_12_">
-					<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st8" points="215.9,367 215.9,472.6 309.8,419.8 309.8,314.2 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st2">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_13_" x="122" y="261.4" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_14_">
-					<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st9" points="122,314.2 122,419.8 215.9,367 215.9,261.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st10">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_15_" x="319.7" y="162.8" width="93.9" height="52.8"/>
-				</defs>
-				<clipPath id="SVGID_16_">
-					<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st11" points="319.7,189.2 366.6,215.6 413.6,189.2 366.6,162.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st10">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_17_" x="122" y="261.4" width="187.7" height="105.6"/>
-				</defs>
-				<clipPath id="SVGID_18_">
-					<use xlink:href="#SVGID_17_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st12" points="122,314.2 215.9,367 309.8,314.2 215.9,261.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st4">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_19_" x="332.1" y="367" width="187.7" height="105.6"/>
-				</defs>
-				<clipPath id="SVGID_20_">
-					<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st13" points="332.1,419.8 425.9,472.6 519.8,419.8 425.9,367 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st0">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_21_" x="332.1" y="314.2" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_22_">
-					<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st14" points="425.9,367 425.9,472.6 332.1,419.8 332.1,314.2 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st0">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_23_" x="425.9" y="261.4" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_24_">
-					<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st15" points="519.8,314.2 519.8,419.8 425.9,367 425.9,261.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st2">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_25_" x="425.9" y="314.2" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_26_">
-					<use xlink:href="#SVGID_25_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st16" points="425.9,367 425.9,472.6 519.8,419.8 519.8,314.2 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st2">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_27_" x="332.1" y="261.4" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_28_">
-					<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st17" points="332.1,314.2 332.1,419.8 425.9,367 425.9,261.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st10">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_29_" x="332.1" y="261.4" width="187.7" height="105.6"/>
-				</defs>
-				<clipPath id="SVGID_30_">
-					<use xlink:href="#SVGID_29_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st18" points="332.1,314.2 425.9,367 519.8,314.2 425.9,261.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st2">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_31_" x="319.7" y="110" width="46.9" height="79.2"/>
-				</defs>
-				<clipPath id="SVGID_32_">
-					<use xlink:href="#SVGID_31_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st19" points="319.7,136.4 319.7,189.2 366.6,162.8 366.6,110 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st4">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_33_" x="225.8" y="189.2" width="187.7" height="105.6"/>
-				</defs>
-				<clipPath id="SVGID_34_">
-					<use xlink:href="#SVGID_33_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st20" points="225.8,242 319.7,294.8 413.6,242 319.7,189.2 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st0">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_35_" x="225.8" y="136.4" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_36_">
-					<use xlink:href="#SVGID_35_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st21" points="319.7,189.2 319.7,294.8 225.8,242 225.8,136.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st2">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_37_" x="225.8" y="83.6" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_38_">
-					<use xlink:href="#SVGID_37_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st22" points="225.8,136.4 225.8,242 319.7,189.2 319.7,83.6 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st2">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_39_" x="319.7" y="162.8" width="93.9" height="132"/>
-				</defs>
-				<clipPath id="SVGID_40_">
-					<use xlink:href="#SVGID_39_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st23" points="366.6,215.6 366.6,162.8 319.7,189.2 319.7,242 319.7,294.8 366.6,268.4 413.6,242 413.6,189.2 
-									"/>
-			</g>
-		</g>
-	</g>
-	<g class="st0">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_41_" x="319.7" y="83.6" width="93.9" height="158.4"/>
-				</defs>
-				<clipPath id="SVGID_42_">
-					<use xlink:href="#SVGID_41_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st24" points="366.6,110 319.7,83.6 319.7,189.2 413.6,242 413.6,189.2 366.6,162.8 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st10">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_43_" x="225.8" y="83.6" width="140.8" height="105.6"/>
-				</defs>
-				<clipPath id="SVGID_44_">
-					<use xlink:href="#SVGID_43_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st25" points="319.7,83.6 366.6,110 319.7,136.4 319.7,189.2 225.8,136.4 				"/>
-			</g>
-		</g>
-	</g>
-	<g class="st10">
-		<g>
-			<g>
-				<defs>
-					<rect id="SVGID_45_" x="384.2" y="71.8" width="93.9" height="52.8"/>
-				</defs>
-				<clipPath id="SVGID_46_">
-					<use xlink:href="#SVGID_45_"  style="overflow:visible;"/>
-				</clipPath>
-				<polygon class="st26" points="384.2,98.2 431.2,124.6 478.1,98.2 431.2,71.8 				"/>
-			</g>
-		</g>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 230.07104 58.680001"
+   version="1.1"
+   id="svg28566"
+   sodipodi:docname="swarm-logo.svg"
+   inkscape:version="1.0.1 (3bc2e81, 2020-09-07)"
+   width="230.07104"
+   height="58.68">
+  <metadata
+     id="metadata28570">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Swarm Logo &amp;amp; Lettering 4</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     id="namedview28568"
+     showgrid="false"
+     inkscape:zoom="3.1325"
+     inkscape:cx="123.33"
+     inkscape:cy="35.939998"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs28540">
+    <style
+       id="style28538">.cls-1{fill:#fafafa;}.cls-2{fill:#242424;}</style>
+  </defs>
+  <title
+     id="title28542">Swarm Logo &amp;amp; Lettering 4</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     transform="translate(-76.67,-71.05)">
+    <path
+       class="cls-2"
+       d="m 206.24,90.06 -3.54,24.65 c 0,0 -0.06,0 -0.07,0 l -3.1,-24.65 c 0,0 0,0 0,0 h -8.82 l -3.11,24.65 c 0,0 -0.06,0 -0.07,0 l -3.54,-24.65 h -5.38 c 0,0 0,0 0,0 L 183,118.6 h 8.8 L 195.05,94 c 0,0 0.06,0 0.07,0 l 3.21,24.61 h 8.81 l 4.49,-28.53 h -5.37 c 0,0 -0.02,-0.08 -0.02,-0.02 z"
+       id="path28546" />
+    <path
+       class="cls-2"
+       d="m 305,91.39 a 6.52,6.52 0 0 0 -5.19,-2.14 6.74,6.74 0 0 0 -6.33,3.75 v 0 a 5.85,5.85 0 0 0 -1.86,-2.62 5.61,5.61 0 0 0 -3.62,-1.13 6.26,6.26 0 0 0 -3.55,1 5.78,5.78 0 0 0 -2,2.45 v -2.64 c 0,0 0,0 0,0 h -5.24 c 0,0 0,0 0,0 v 28.53 h 5.24 v -19.5 a 5.72,5.72 0 0 1 1,-3.5 3.14,3.14 0 0 1 2.7,-1.25 2.85,2.85 0 0 1 2.3,1 4.08,4.08 0 0 1 0.89,2.73 v 20.5 c 0,0 0,0 0,0 h 5.25 V 99.42 a 6.08,6.08 0 0 1 1,-3.89 3.22,3.22 0 0 1 2.61,-1.19 2.75,2.75 0 0 1 2.44,1 4.9,4.9 0 0 1 0.81,2.92 v 20.28 c 0,0 0,0 0,0 h 5.28 V 96.86 A 8.18,8.18 0 0 0 305,91.39 Z"
+       id="path28548" />
+    <path
+       class="cls-2"
+       d="m 243.47,115.52 -3.32,3.71 h -0.05 l -5.86,-5.07 c 0,0 0,0 0,0 l -7,4.09 a 7.38,7.38 0 0 1 -3.77,1 7.91,7.91 0 0 1 -5.34,-2.13 7.28,7.28 0 0 1 -2.3,-5.45 7.54,7.54 0 0 1 3.82,-6.58 L 233.76,97 c 0,0 0,0 0,0 v -1.8 h -16.53 c 0,0 0,0 0,0 v -5 c 0,0 0,0 0,0 h 21.57 v 21.36 c 0,0 0,0 0,0 l 4.62,4 z m -18.8,-1.66 9.09,-5.28 c 0,0 0,0 0,0 v -5.7 a 0.03,0 0 0 0 -0.06,0 l -11.58,6.65 a 2.46,2.46 0 0 0 -1.29,2.2 2.59,2.59 0 0 0 2.53,2.53 2.51,2.51 0 0 0 1.31,-0.4 z"
+       id="path28550" />
+    <path
+       class="cls-2"
+       d="m 268.75,92 a 9.1,9.1 0 0 0 -6.67,-2.78 9,9 0 0 0 -7.48,3.64 l -3.34,-3.06 a 0.025,0 0 0 0 -0.05,0 l -3.29,3.67 4.74,4.3 v 15.7 h -4.71 c 0,0 0,0 0,0 v 4.93 h 17 c 0,0 0,0 0,0 v -4.93 h -7.19 V 98.93 a 4.61,4.61 0 0 1 4,-4.66 4.45,4.45 0 0 1 4.87,4.42 v 1.64 c 0,0 0,0 0,0 h 4.93 c 0,0 0,0 0,0 V 98.69 A 9.1,9.1 0 0 0 268.75,92 Z"
+       id="path28552" />
+    <path
+       class="cls-2"
+       d="m 173.32,106.74 a 5.41,5.41 0 0 0 -1.5,-2 6.58,6.58 0 0 0 -2.36,-1.44 15.31,15.31 0 0 0 -2.72,-1 c -0.94,-0.25 -2,-0.52 -3.08,-0.73 a 15.43,15.43 0 0 1 -4.88,-1.64 2.85,2.85 0 0 1 -1.51,-2.47 2.81,2.81 0 0 1 1.35,-2.59 5.91,5.91 0 0 1 4.4,-0.76 8.68,8.68 0 0 1 3.86,2.11 c 0.23,0.19 2.51,2.3 2.47,2.35 l 3.29,-3.73 c 0,0 -1.58,-1.6 -2.33,-2.26 a 13,13 0 0 0 -6.31,-3.24 12.18,12.18 0 0 0 -7.23,1.1 9.58,9.58 0 0 0 -1.67,1.09 7.57,7.57 0 0 0 -2.88,6.1 c 0,2.6 0.82,4.45 2.5,5.66 a 17.33,17.33 0 0 0 6.73,2.73 25.41,25.41 0 0 1 5.53,1.65 2.29,2.29 0 0 1 1.59,2.23 3.36,3.36 0 0 1 -1.62,3 8.35,8.35 0 0 1 -8.24,0 19.32,19.32 0 0 1 -2.85,-2.27 c -0.71,-0.6 -1.38,-1.25 -2.07,-1.89 v 0 l -3.2,3.85 c 0,0 1.56,1.46 1.7,1.58 a 15.66,15.66 0 0 0 7.41,4.21 15.26,15.26 0 0 0 3.16,0.32 12.45,12.45 0 0 0 7.85,-2.45 8.17,8.17 0 0 0 3.27,-6.83 6.14,6.14 0 0 0 -0.66,-2.68 z"
+       id="path28554" />
+    <polygon
+       class="cls-2"
+       points="76.67,122.17 90.14,129.73 103.61,122.17 103.61,107.08 90.14,99.51 76.67,107.08 "
+       id="polygon28556" />
+    <polygon
+       class="cls-2"
+       points="121.2,71.05 114.08,75.05 114.07,75.11 114.07,83.1 121.2,87.1 121.26,87.13 128.38,83.14 128.38,75.08 "
+       id="polygon28558" />
+    <polygon
+       class="cls-2"
+       points="134.44,107.08 120.97,99.51 107.5,107.08 107.5,122.17 120.97,129.73 134.44,122.17 "
+       id="polygon28560" />
+    <polygon
+       class="cls-2"
+       points="105.45,73.16 92,80.72 92,95.81 105.47,103.37 118.94,95.81 118.94,89.8 112.38,86.12 110.61,85.13 110.61,83.1 110.61,76.24 "
+       id="polygon28562" />
+  </g>
 </svg>
