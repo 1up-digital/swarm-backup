@@ -1,4 +1,7 @@
-# <img src="swarm-logo.svg" alt="Swarm" height="40px"> Swarm Backup
+<img src="swarm-logo.svg" alt="Swarm" height="40px"> 
+
+# Swarm Backup
+
 <hr>
 
 A library to back up and restore encrypted data using swarm.
@@ -26,7 +29,7 @@ Instantiate the class passing the URL of the Swarm gateway and a valid private k
 | Param |	Type | Required | Default | Purpose |
 | ----- | ---- | -------- | ------- | ------- |
 | gateway | string | true |  | The URL of the Swarm Gateway |
-| privateKey | string | true | A valid Private Key |
+| privateKey | string | true | | A valid Private Key |
 
 ##### Example
 
