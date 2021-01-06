@@ -1,0 +1,89 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+  padding: 0 12.5%;
+}
+
+.column#backup {
+	background-color: #D67318;
+}
+
+.column#restore {
+	background-color: #242424;
+}
+
+.cc {
+	height: 300px;
+}
+
+* {
+	font-family: Courier New;
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+/* Form Styling */
+
+input, textarea {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+	padding: 10px 10px;
+}
+
+textarea {
+	resize: none;
+}
+
+button {
+	display: block;
+  padding: 20px 40px;
+  color: #D67318;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  width: auto;
+}
+
+button:active {
+  background-color: #D67318;
+  color: #fff;
+}
+
+/* backup */
+
+#backup h2 {
+	color: #fff;
+}
+
+#restore h2 {
+	color: #D67318;
+}
+
+#backup button:active {
+  border: 1px solid #fff;
+}
+
+code {
+  margin-top: 20px;
+  background-color: #ccc;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  padding: 20px;
+  display: block;
+  width: 100%;
+}

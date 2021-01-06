@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swarm Backup Demo </title>
+
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+  <script type="text/javascript" src="/js/bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+
+</head>
+<body>
+
+	<div id="wrap">
+    <div class="container">
+      <div class="row">
+        <div class="column" id="backup">
+          <div class="cc">
+            <h2>Backup</h2>
+            <input placeholder="Enter Private Key" type="text" id="backup-privateKey">
+            <input placeholder="Enter Data Key" type="text" id="backup-dataKey">
+            <textarea placeholder="Enter Data Value to Backup" id="backup-dataValue"></textarea>
+            <button id="backupBtn">Backup</button>
+          </div>
+        </div>
+        <div class="column" id="restore">
+          <div class="cc" id="restoreContainer">
+            <h2>Restore</h2>
+            <input placeholder="Enter Private Key" type="text" id="restore-privateKey">
+            <input placeholder="Enter Data Key" type="text" id="restore-dataKey">
+            <button id="restoreBtn">Restore</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<footer>
+  <script type="text/javascript">
+
+    const gateway = 'http://localhost:1633';
+    
+    function resetForm(){
+      document.getElementById("backup-privateKey").value = '';
+      document.getElementById("backup-dataKey").value = '';
+      document.getElementById("backup-dataValue").value = '';
+
+      document.getElementById("restore-privateKey").value = '';
+      document.getElementById("restore-dataKey").value = '';
+    }
+
+    function backup(){
+      const privateKey = document.getElementById("backup-privateKey").value
+      const dataKey = document.getElementById("backup-dataKey").value
+      const dataValue = document.getElementById("backup-dataValue").value
+
+      let sb = new SwarmBackup(gateway, privateKey);
+
+      sb.backup(dataKey, dataValue).then((response)=>{
+        if(response === true){
+          alert('Backup Successful');
+        }else{
+          alert(`There was an error ${response}`)
+        }
+      })
+
+      resetForm();
+    }
+
+    function restore(){
+      const privateKey = document.getElementById("restore-privateKey").value
+      const dataKey = document.getElementById("restore-dataKey").value
+
+      let sb = new SwarmBackup(gateway, privateKey);
+
+      sb.restore(dataKey).then((response)=>{
+        var restoredData = document.getElementById("restoredData");
+        if(restoredData !== null){
+          restoredData.remove();
+        }
+        
+        var node = document.createElement("code");   
+        node.setAttribute("id", "restoredData");              
+        var textnode = document.createTextNode(response);
+        node.appendChild(textnode);
+        document.getElementById("restoreContainer").appendChild(node);
+
+        resetForm();
+      })
+    }
+
+  	document.getElementById("backupBtn").addEventListener("click", backup);
+    document.getElementById("restoreBtn").addEventListener("click", restore);
+
+  </script>
+</footer>
+</html>
