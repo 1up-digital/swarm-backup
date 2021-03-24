@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const gateway = 'http://localhost:1633';
+const gateway = 'https://bee-gateway.duckdns.org';
 
 const SwarmBackup = require('../lib/index.js');
 

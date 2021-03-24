@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bee-client": "git+https://github.com/significance/bee-client-lib#243a6d7868caf28a696938f0f5650e2027dec0dc",
+    "@ethersphere/bee-js": "^0.5.1",
     "elliptic": "^6.5.3",
     "swarm-lowlevel": "^0.8.9",
     "web3": "^1.3.0",
-    "web3-utils": "^1.3.0"
+    "web3-utils": "^1.3.4"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
