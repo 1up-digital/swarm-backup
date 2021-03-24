@@ -8,7 +8,7 @@
 
 A library to back up and restore encrypted data using swarm.
 
-![Swarm Backup Demo](demo.gif "Demo")
+![Swarm Backup Demo](https://raw.githubusercontent.com/1up-digital/swarm-backup/master/demo.gif "Demo")
 
 ## Overview
 
