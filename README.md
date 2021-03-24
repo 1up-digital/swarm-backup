@@ -1,5 +1,5 @@
 <p float="left">
-	<img src="swarm-logo.svg" alt="Swarm" height="40px">        <img src="1up-logo.svg" alt="1UP" height="40px">
+	<img src="https://raw.githubusercontent.com/1up-digital/swarm-backup/master/swarm-logo.svg" alt="Swarm" height="40px">        <img src="https://raw.githubusercontent.com/1up-digital/swarm-backup/master/1up-logo.svg" alt="1UP" height="40px">
 </p>
 
 # Swarm Backup
