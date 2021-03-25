@@ -6,6 +6,7 @@ const Wallet = require('../lib/wallet.js');
 // nb uses mocha steps to ensure tests are sequential
 
 const gateway = 'https://bee-gateway.duckdns.org';
+
 let w1;
 let feed;
 
