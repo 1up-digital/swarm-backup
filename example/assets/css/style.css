@@ -15,43 +15,44 @@
 }
 
 .column#backup {
-	background-color: #D67318;
+  background-color: #d67318;
 }
 
 .column#restore {
-	background-color: #242424;
+  background-color: #242424;
 }
 
 .cc {
-	height: 300px;
+  height: 300px;
 }
 
 * {
-	font-family: Courier New;
+  font-family: Courier New;
 }
 
 h2 {
-	font-size: 40px;
-	margin-bottom: 15px;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 
 /* Form Styling */
 
-input, textarea {
-	width: 100%;
-	border: none;
-	margin-bottom: 20px;
-	padding: 10px 10px;
+input,
+textarea {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  padding: 10px 10px;
 }
 
 textarea {
-	resize: none;
+  resize: none;
 }
 
 button {
-	display: block;
+  display: block;
   padding: 20px 40px;
-  color: #D67318;
+  color: #d67318;
   font-weight: bold;
   border-radius: 5px;
   border: none;
@@ -60,18 +61,18 @@ button {
 }
 
 button:active {
-  background-color: #D67318;
+  background-color: #d67318;
   color: #fff;
 }
 
 /* backup */
 
 #backup h2 {
-	color: #fff;
+  color: #fff;
 }
 
 #restore h2 {
-	color: #D67318;
+  color: #d67318;
 }
 
 #backup button:active {

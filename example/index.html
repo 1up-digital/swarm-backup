@@ -1,121 +1,136 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Swarm Backup Demo </title>
+  <head>
+    <title>Swarm Backup Demo</title>
 
-  <link rel="stylesheet" type="text/css" href="/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
 
-  <script type="text/javascript" src="/js/bundle.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
-
-</head>
-<body>
-
-	<div id="wrap">
-    <div class="container">
-      <div class="row">
-        <div class="column" id="backup">
-          <div class="cc">
-            <h2>Backup</h2>
-            <input placeholder="Enter Private Key" type="text" id="backup-privateKey">
-            <input placeholder="Enter Data Key" type="text" id="backup-dataKey">
-            <textarea placeholder="Enter Data Value to Backup" id="backup-dataValue"></textarea>
-            <button id="backupBtn">Backup</button>
+    <script type="text/javascript" src="/js/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="container">
+        <div class="row">
+          <div class="column" id="backup">
+            <div class="cc">
+              <h2>Backup</h2>
+              <input
+                placeholder="Enter Private Key"
+                type="text"
+                id="backup-privateKey"
+              />
+              <input
+                placeholder="Enter Data Key"
+                type="text"
+                id="backup-dataKey"
+              />
+              <textarea
+                placeholder="Enter Data Value to Backup"
+                id="backup-dataValue"
+              ></textarea>
+              <button id="backupBtn">Backup</button>
+            </div>
           </div>
-        </div>
-        <div class="column" id="restore">
-          <div class="cc" id="restoreContainer">
-            <h2>Restore</h2>
-            <input placeholder="Enter Private Key" type="text" id="restore-privateKey">
-            <input placeholder="Enter Data Key" type="text" id="restore-dataKey">
-            <button id="restoreBtn">Restore</button>
+          <div class="column" id="restore">
+            <div class="cc" id="restoreContainer">
+              <h2>Restore</h2>
+              <input
+                placeholder="Enter Private Key"
+                type="text"
+                id="restore-privateKey"
+              />
+              <input
+                placeholder="Enter Data Key"
+                type="text"
+                id="restore-dataKey"
+              />
+              <button id="restoreBtn">Restore</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </body>
+  <footer>
+    <script type="text/javascript">
+      // Using a local gateway
+      const gateway = "https://bee-gateway.duckdns.org";
 
-</body>
-<footer>
-  <script type="text/javascript">
-    // Using a local gateway
-    const gateway = 'https://bee-gateway.duckdns.org';
-    
-    /* 
-     *  Clear the form data
-     */
-    function resetForm(){
-      document.getElementById("backup-privateKey").value = '';
-      document.getElementById("backup-dataKey").value = '';
-      document.getElementById("backup-dataValue").value = '';
+      /*
+       *  Clear the form data
+       */
+      function resetForm() {
+        document.getElementById("backup-privateKey").value = "";
+        document.getElementById("backup-dataKey").value = "";
+        document.getElementById("backup-dataValue").value = "";
 
-      document.getElementById("restore-privateKey").value = '';
-      document.getElementById("restore-dataKey").value = '';
-    }
+        document.getElementById("restore-privateKey").value = "";
+        document.getElementById("restore-dataKey").value = "";
+      }
 
-    /* 
-     *  Backup data provided
-     */
-    function backup(){
-      // Get private key from input
-      const privateKey = document.getElementById("backup-privateKey").value
-      // Get data key from input
-      const dataKey = document.getElementById("backup-dataKey").value
-      // Get data value from input
-      const dataValue = document.getElementById("backup-dataValue").value
+      /*
+       *  Backup data provided
+       */
+      function backup() {
+        // Get private key from input
+        const privateKey = document.getElementById("backup-privateKey").value;
+        // Get data key from input
+        const dataKey = document.getElementById("backup-dataKey").value;
+        // Get data value from input
+        const dataValue = document.getElementById("backup-dataValue").value;
 
-      // Init SwarmBackup
-      let sb = new SwarmBackup(gateway, privateKey);
+        // Init SwarmBackup
+        let sb = new SwarmBackup(gateway, privateKey);
 
-      // Backup data 
-      sb.backup(dataKey, dataValue).then((response)=>{
-        if(response === true){
-          alert('Backup Successful');
-        }else{
-          alert(`There was an error ${response}`)
-        }
-      })
+        // Backup data
+        sb.backup(dataKey, dataValue).then((response) => {
+          if (response === true) {
+            alert("Backup Successful");
+          } else {
+            alert(`There was an error ${response}`);
+          }
+        });
 
-      // Reset form
-      resetForm();
-    }
-
-    /* 
-     *  Restore data provided
-     */
-    function restore(){
-      // Get private key from input
-      const privateKey = document.getElementById("restore-privateKey").value
-      // Get data key from input
-      const dataKey = document.getElementById("restore-dataKey").value
-
-      // Init SwarmBackup
-      let sb = new SwarmBackup(gateway, privateKey);
-
-      // Restore Data
-      sb.restore(dataKey).then((response)=>{
-        var restoredData = document.getElementById("restoredData");
-        if(restoredData !== null){
-          restoredData.remove();
-        }
-        
-        // Show data in UI
-        var node = document.createElement("code");   
-        node.setAttribute("id", "restoredData");              
-        var textnode = document.createTextNode(response);
-        node.appendChild(textnode);
-        document.getElementById("restoreContainer").appendChild(node);
-
-        // Reset Form
+        // Reset form
         resetForm();
-      })
-    }
+      }
 
-    // Setup events
-  	document.getElementById("backupBtn").addEventListener("click", backup);
-    document.getElementById("restoreBtn").addEventListener("click", restore);
+      /*
+       *  Restore data provided
+       */
+      function restore() {
+        // Get private key from input
+        const privateKey = document.getElementById("restore-privateKey").value;
+        // Get data key from input
+        const dataKey = document.getElementById("restore-dataKey").value;
 
-  </script>
-</footer>
+        // Init SwarmBackup
+        let sb = new SwarmBackup(gateway, privateKey);
+
+        // Restore Data
+        sb.restore(dataKey).then((response) => {
+          var restoredData = document.getElementById("restoredData");
+          if (restoredData !== null) {
+            restoredData.remove();
+          }
+
+          // Show data in UI
+          var node = document.createElement("code");
+          node.setAttribute("id", "restoredData");
+          var textnode = document.createTextNode(response);
+          node.appendChild(textnode);
+          document.getElementById("restoreContainer").appendChild(node);
+
+          // Reset Form
+          resetForm();
+        });
+      }
+
+      // Setup events
+      document.getElementById("backupBtn").addEventListener("click", backup);
+      document.getElementById("restoreBtn").addEventListener("click", restore);
+    </script>
+  </footer>
 </html>
