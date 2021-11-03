@@ -28,19 +28,21 @@ Swarm is in beta and as such data retention cannot be guaranteed, be sure to kee
 
 Instantiate the class passing the URL of the Swarm gateway and a valid private key.
 
-| Param      | Type   | Required | Default | Purpose                      |
-| ---------- | ------ | -------- | ------- | ---------------------------- |
-| gateway    | string | true     |         | The URL of the Swarm Gateway |
-| privateKey | string | true     |         | A valid Private Key          |
+| Param      | Type   | Required | Default | Purpose                                      |
+| ---------- | ------ | -------- | ------- | -------------------------------------------- |
+| gateway    | string | true     |         | The URL of the Swarm Gateway                 |
+| privateKey | string | true     |         | A valid Private Key                          |
+| batchID    | string | true     |         | A valid Batch ID (or 64 0's for the gateway) |
 
 ##### Example
 
 ```
-const gateway = 'http://localhost:1633';
+const gateway = 'https://bee-9.gateway.ethswarm.org';
 const w1 = await new Wallet().generate('test-pw-1');
 const privateKey = w1.wallet.privateKey;
+const batchID = "0000000000000000000000000000000000000000000000000000000000000000";
 
-const sb = new SwarmBackup(gateway, privateKey);
+const sb = new SwarmBackup(gateway, privateKey, batchID);
 ```
 
 #### Backup Data
@@ -95,9 +97,8 @@ Include the library as normal and instantiate the class using the same example a
 
 To run tests:
 
-1.  Install bee following the instructions at https://docs.ethswarm.org.
-2.  Run locally in standalone mode `bee start --standalone --password="password" --swap-enable="false"`
-3.  `npm test`
+1.  `npm test`
+2.  Wait `:*D`
 
 ### License
 

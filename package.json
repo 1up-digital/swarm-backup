@@ -4,13 +4,13 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --timeout 10000 --require mocha-steps",
+    "test": "mocha --timeout 1000000 --require mocha-steps",
     "pack": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ethersphere/bee-js": "^0.6.0",
+    "@ethersphere/bee-js": "^2.1.0",
     "elliptic": "^6.5.3",
     "swarm-lowlevel": "^0.8.9",
     "web3": "^1.3.0",

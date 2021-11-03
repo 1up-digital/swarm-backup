@@ -1,6 +1,6 @@
 const assert = require("assert");
 
-const gateway = "https://bee-gateway.duckdns.org";
+const gateway = "https://bee-9.gateway.ethswarm.org";
 
 const SwarmBackup = require("../lib/index.js");
 
@@ -21,7 +21,12 @@ describe("Swarm Backup", () => {
   describe("backup and restore in same SwarmBackup session", () => {
     before(async () => {
       w1 = await new Wallet().generate("test-pw-1");
-      sb = new SwarmBackup(gateway, w1.wallet.privateKey);
+      sb = new SwarmBackup(
+        gateway,
+        w1.wallet.privateKey,
+        "0000000000000000000000000000000000000000000000000000000000000000",
+        100000
+      );
     });
 
     step("fails with no dataKey", async () => {
@@ -49,16 +54,18 @@ describe("Swarm Backup", () => {
     step("completes backup successfully", async () => {
       let sb2 = new SwarmBackup(
         gateway,
-        "0xd3cc03cbdfb5fe21a6c1560d96f12b75dca491d3dfc7b4f0bf3e956c22ad5f83"
+        "0xd3cc03cbdfb5fe21a6c1560d96f12b75dca491d3dfc7b4f0bf3e956c22ad5f83",
+        "0000000000000000000000000000000000000000000000000000000000000000"
       );
       const result = await sb.backup("test-dataKey2", "bambafire");
       assert.equal(result, true);
     });
 
-    step("returns battyraas", async () => {
+    step("returns correct value", async () => {
       let sb2 = new SwarmBackup(
         gateway,
-        "0xd3cc03cbdfb5fe21a6c1560d96f12b75dca491d3dfc7b4f0bf3e956c22ad5f83"
+        "0xd3cc03cbdfb5fe21a6c1560d96f12b75dca491d3dfc7b4f0bf3e956c22ad5f83",
+        "0000000000000000000000000000000000000000000000000000000000000000"
       );
       const result = await sb.restore("test-dataKey2");
       assert.equal(result, "bambafire");
@@ -68,7 +75,11 @@ describe("Swarm Backup", () => {
   describe("backup and restore in same SwarmBackup session", () => {
     before(async () => {
       w1 = await new Wallet().generate("test-pw-1");
-      sb = new SwarmBackup(gateway, w1.wallet.privateKey);
+      sb = new SwarmBackup(
+        gateway,
+        w1.wallet.privateKey,
+        "0000000000000000000000000000000000000000000000000000000000000000"
+      );
     });
 
     step("updates once successfully", async () => {
